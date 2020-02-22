@@ -1,9 +1,14 @@
-# DPDDI
+This is a TensorFlow implementation of the DPDDI model as described in our paper:
 
+DPDDI: a Deep Predictor for Drug-Drug Interactions
 
-   Name                              Size                     Attributes
-  DDI_V4                      1562x1562             binary DDI matrix
-  DDI_V5                       1934x1934            binary DDI matrix
-  structure_feature      1562x881              chemical structure descriptor
-DBP_feature                1562x1121             drug binding protein descriptor
-ATC_feature                 1562x118              drug ATC one-hot code
+The code of GAE is used code from paper: T. N. Kipf, M. Welling, Variational Graph Auto-Encoders, NIPS Workshop on Bayesian Deep Learning (2016).
+
+Requirements
+
+TensorFlow (1.0 or later)
+python 2.7
+networkx
+scikit-learn
+scipy
+
